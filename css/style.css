@@ -1,0 +1,1765 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  position: relative;
+  width: 1440px;
+  height: 96px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+header .menu_section {
+  position: absolute;
+  width: 1106px;
+  height: 53px;
+  left: 169px;
+  top: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .menu_section svg {
+  display: none;
+}
+header .menu_section button {
+  width: 180px;
+  height: 53px;
+  background-color: #FCB72B;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height, or 167% */
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+header .menu_section button:hover {
+  background-color: white;
+  color: #FCB72B;
+  border: 3px solid #FCB72B;
+}
+header .menu_section .nav_ul {
+  display: flex;
+  width: 25%;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-right: 480px;
+}
+header .menu_section .nav_ul .nav_li {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+}
+header .menu_section .nav_ul .nav_li a {
+  color: #939CAA;
+  text-decoration: none;
+}
+header .menu_section .nav_ul .nav_li a:hover {
+  color: #FCB72B;
+}
+
+.menu {
+  width: 1500px;
+  margin: 0 auto;
+  position: relative;
+}
+.menu .img {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.menu img {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.menu .Sarlavha {
+  position: absolute;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  /* or 100% */
+  letter-spacing: -2.5px;
+  left: 153px;
+  color: white;
+  top: 150px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.menu .text1 {
+  position: absolute;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  color: white;
+  left: 270px;
+  bottom: 424px;
+  z-index: 1;
+}
+.menu .dash1 {
+  position: relative;
+  bottom: 264px;
+  right: 619px;
+}
+.menu .dash2 {
+  position: relative;
+  bottom: 278px;
+  left: 150px;
+}
+.menu button {
+  width: 180px;
+  height: 53px;
+  background-color: #FCB72B;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height, or 167% */
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  color: #FFFFFF;
+  position: relative;
+  bottom: 280px;
+  left: 270px;
+}
+.menu button:hover {
+  background-color: white;
+  color: #FCB72B;
+  border: 3px solid #FCB72B;
+}
+
+.cards {
+  width: 1275px;
+  height: 291px;
+  margin: 0 auto;
+}
+.cards h2 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+.cards p {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  color: #939CAA;
+}
+.cards .long_chiziq {
+  width: 974px;
+  height: 1px;
+  position: relative;
+  right: 80px;
+  border: 15px solid #E5ECF4;
+}
+.cards .long_chiziq .first {
+  position: relative;
+  bottom: 50px;
+  left: 80px;
+}
+.cards .long_chiziq .second {
+  position: relative;
+  bottom: 50px;
+  left: 380px;
+}
+.cards .long_chiziq .third {
+  position: relative;
+  bottom: 50px;
+  left: 680px;
+}
+.cards .card1 {
+  margin-top: 87px;
+}
+.cards .card2 {
+  margin-left: 400px;
+  margin-top: -170px;
+}
+.cards .card3 {
+  margin-left: 810px;
+  margin-top: -175px;
+}
+
+.first_moment {
+  height: 449.94px;
+  width: 1106;
+  margin: 200px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first_moment h1 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* or 100% */
+  text-align: center;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+.first_moment .text2 {
+  position: relative;
+  right: 100px;
+}
+.first_moment .text2 p {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  text-align: center;
+  color: #939CAA;
+}
+.first_moment .text2 button {
+  width: 180px;
+  height: 53px;
+  background-color: #FCB72B;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height, or 167% */
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  color: #FFFFFF;
+  position: relative;
+  top: 30px;
+  left: 120px;
+}
+.first_moment .text2 button:hover {
+  background-color: white;
+  color: #FCB72B;
+  border: 3px solid #FCB72B;
+}
+.first_moment .moment1 {
+  position: relative;
+  left: 120px;
+  transition: 1s;
+  animation-name: First;
+  animation-fill-mode: forwards;
+  animation-timeline: 3s;
+  animation-duration: 2s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+.chiziq3 {
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 160px;
+}
+
+@keyframes First {
+  from {
+    left: 400px;
+    position: relative;
+  }
+  to {
+    right: 400px;
+  }
+}
+.second_moment {
+  height: 449.94px;
+  width: 1106;
+  margin: 200px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second_moment h1 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* or 100% */
+  text-align: center;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+.second_moment .text3 {
+  position: relative;
+  right: 0px;
+  margin-right: 20px;
+}
+.second_moment .text3 p {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  text-align: center;
+  color: #939CAA;
+}
+.second_moment .text3 button {
+  width: 180px;
+  height: 53px;
+  background-color: #FCB72B;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height, or 167% */
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  color: #FFFFFF;
+  position: relative;
+  top: 30px;
+  left: 100px;
+}
+.second_moment .text3 button:hover {
+  background-color: white;
+  color: #FCB72B;
+  border: 3px solid #FCB72B;
+}
+.second_moment .moment2 {
+  position: relative;
+  left: -180px;
+  float: left;
+  animation-name: Second;
+  animation-duration: 2s;
+}
+
+.chiziq4 {
+  position: absolute;
+  margin-left: -870px;
+  margin-top: -100px;
+}
+
+@keyframes Second {
+  from {
+    position: relative;
+    left: -550px;
+    float: left;
+  }
+  to {
+    left: -180px;
+  }
+}
+.third_moment {
+  height: 449.94px;
+  width: 1106;
+  margin: 200px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third_moment h1 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* or 100% */
+  text-align: center;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+.third_moment .text3 {
+  position: relative;
+  right: 100px;
+}
+.third_moment .text3 p {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  text-align: center;
+  color: #939CAA;
+}
+.third_moment .text3 button {
+  width: 180px;
+  height: 53px;
+  background-color: #FCB72B;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height, or 167% */
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  color: #FFFFFF;
+  position: relative;
+  top: 30px;
+  left: 100px;
+}
+.third_moment .text3 button:hover {
+  background-color: white;
+  color: #FCB72B;
+  border: 3px solid #FCB72B;
+}
+.third_moment .moment3 {
+  position: relative;
+  left: 100px;
+  transition: 1s;
+  animation-name: third;
+  animation-fill-mode: forwards;
+  animation-timeline: 3s;
+  animation-duration: 2s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+.third_moment .moment3 img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.chiziq5 {
+  position: absolute;
+  margin-left: 740px;
+  margin-top: -50px;
+}
+
+@keyframes third {
+  from {
+    left: 400px;
+    position: relative;
+  }
+  to {
+    right: 400px;
+  }
+}
+footer {
+  width: 1440px;
+  height: 396px;
+  background-color: #495567;
+  margin: 0 auto;
+}
+footer .markets {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+  margin-right: 400px;
+  position: relative;
+  top: 100px;
+}
+footer .markets .google {
+  width: 159px;
+  height: 56px;
+  background: #E5ECF4;
+  border-radius: 4px;
+}
+footer .markets .appstore {
+  width: 159px;
+  height: 56px;
+  background: #E5ECF4;
+  border-radius: 4px;
+}
+footer .width2 {
+  height: 100%;
+  width: 1300px;
+  margin: 0 auto;
+}
+footer .width2 img {
+  position: relative;
+  top: 53px;
+  left: 217px;
+  width: 1153px;
+}
+footer .width2 h1 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* or 100% */
+  letter-spacing: -2.14286px;
+  color: #FFFFFF;
+  position: relative;
+  top: 135px;
+  left: 102px;
+}
+footer .ending1 {
+  width: 1440px;
+  background-color: #333A44;
+}
+footer .ending1 .ending2 {
+  background: #333A44;
+  width: 1106px;
+  height: 53px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .ending1 .ending2 .nav_ul {
+  display: flex;
+  width: 25%;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-right: 480px;
+}
+footer .ending1 .ending2 .nav_ul .nav_li {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+}
+footer .ending1 .ending2 .nav_ul .nav_li a {
+  color: #939CAA;
+  text-decoration: none;
+}
+footer .ending1 .ending2 .nav_ul .nav_li a:hover {
+  color: #FCB72B;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.icons:hover {
+  color: #FCB72B;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    position: relative;
+    width: 768px;
+    height: 96px;
+    left: 0px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  header img {
+    position: relative;
+    right: 100px;
+  }
+  header .menu_section {
+    position: absolute;
+    width: 1106px;
+    height: 53px;
+    left: 149px;
+    top: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .menu_section button {
+    width: 180px;
+    height: 53px;
+    background-color: #FCB72B;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+    position: relative;
+    right: 520px;
+  }
+  header .menu_section button:hover {
+    background-color: white;
+    color: #FCB72B;
+    border: 3px solid #FCB72B;
+  }
+  header .menu_section .nav_ul {
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-right: 600px;
+  }
+  header .menu_section .nav_ul .nav_li {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  header .menu_section .nav_ul .nav_li a {
+    color: #939CAA;
+    text-decoration: none;
+  }
+  header .menu_section .nav_ul .nav_li a:hover {
+    color: #FCB72B;
+  }
+  .menu {
+    width: 1500px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .menu .img {
+    display: flex;
+    justify-content: center;
+    width: 768px;
+    height: 650px;
+  }
+  .menu img {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .menu .Sarlavha {
+    position: absolute;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    /* or 100% */
+    letter-spacing: -2.5px;
+    left: 153px;
+    color: white;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .menu .text1 {
+    position: absolute;
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    color: white;
+    text-align: center;
+    left: 200px;
+    bottom: 454px;
+    z-index: 1;
+  }
+  .menu .dash1 {
+    position: relative;
+    bottom: 264px;
+    right: 619px;
+    display: none;
+  }
+  .menu .dash2 {
+    position: relative;
+    bottom: 178px;
+    left: -650px;
+  }
+  .menu button {
+    width: 180px;
+    height: 53px;
+    background-color: #FCB72B;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 350px;
+    left: 290px;
+  }
+  .menu button:hover {
+    background-color: white;
+    color: #FCB72B;
+    border: 3px solid #FCB72B;
+  }
+  .cards {
+    width: 1275px;
+    height: 291px;
+    margin: 0 auto;
+  }
+  .cards h2 {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height, or 117% */
+    letter-spacing: -1.07143px;
+    color: #495567;
+  }
+  .cards p {
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    color: #939CAA;
+  }
+  .cards .long_chiziq {
+    width: 5px;
+    height: 512px;
+    position: relative;
+    left: 200px;
+    bottom: 204px;
+    background-color: #E5ECF4;
+    border: 15px solid #E5ECF4;
+  }
+  .cards .long_chiziq .first {
+    position: relative;
+    bottom: 10px;
+    left: -50px;
+  }
+  .cards .long_chiziq .second {
+    position: relative;
+    bottom: -80px;
+    left: -50px;
+  }
+  .cards .long_chiziq .third {
+    position: relative;
+    bottom: -170px;
+    left: -50px;
+  }
+  .cards .card1 {
+    position: relative;
+    bottom: 790px;
+    left: 300px;
+  }
+  .cards .card2 {
+    position: relative;
+    bottom: 600px;
+    right: 100px;
+  }
+  .cards .card3 {
+    position: relative;
+    bottom: 400px;
+    right: 510px;
+  }
+  .first_moment {
+    height: 449.94px;
+    width: 1106;
+    margin: 200px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .first_moment h1 {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    letter-spacing: -2.14286px;
+    color: #495567;
+  }
+  .first_moment .text2 {
+    position: relative;
+    right: -40px;
+    top: 800px;
+  }
+  .first_moment .text2 h1 {
+    text-align: center;
+  }
+  .first_moment .text2 p {
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    /* or 167% */
+    color: #939CAA;
+  }
+  .first_moment .text2 button {
+    width: 180px;
+    height: 53px;
+    background-color: #FCB72B;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+    position: relative;
+    top: 30px;
+    left: 120px;
+  }
+  .first_moment .text2 button:hover {
+    background-color: white;
+    color: #FCB72B;
+    border: 3px solid #FCB72B;
+  }
+  .first_moment .moment1 {
+    position: relative;
+    left: 60px;
+    transition: 1s;
+    animation-name: First;
+    animation-fill-mode: forwards;
+    animation-timeline: 3s;
+    animation-duration: 2s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+  }
+  .chiziq3 {
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 160px;
+  }
+  @keyframes First {
+    from {
+      left: 400px;
+      position: relative;
+    }
+    to {
+      right: 400px;
+    }
+  }
+  .second_moment {
+    height: 449.94px;
+    width: 1106;
+    margin: 200px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .second_moment h1 {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    text-align: center;
+    letter-spacing: -2.14286px;
+    color: #495567;
+  }
+  .second_moment .text3 {
+    position: relative;
+    right: 180px;
+    margin-top: 1800px;
+  }
+  .second_moment .text3 p {
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    text-align: center;
+    color: #939CAA;
+  }
+  .second_moment .text3 button {
+    width: 180px;
+    height: 53px;
+    background-color: #FCB72B;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+    position: relative;
+    top: 30px;
+    left: 50px;
+  }
+  .second_moment .text3 button:hover {
+    background-color: white;
+    color: #FCB72B;
+    border: 3px solid #FCB72B;
+  }
+  .second_moment .moment2 {
+    position: relative;
+    left: 185px;
+    top: 400px;
+    animation-name: Second;
+    animation-duration: 2s;
+  }
+  .chiziq4 {
+    position: absolute;
+    margin-left: -870px;
+    margin-top: -100px;
+  }
+  @keyframes Second {
+    from {
+      position: relative;
+      left: -250px;
+      float: left;
+    }
+    to {
+      left: 185px;
+    }
+  }
+  .third_moment {
+    height: 449.94px;
+    width: 1106;
+    margin: 200px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1200px;
+    margin-right: 20px;
+  }
+  .third_moment h1 {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    letter-spacing: -2.14286px;
+    color: #495567;
+  }
+  .third_moment .text3 {
+    position: relative;
+    left: 270px;
+    top: 300px;
+    margin: 500px auto;
+  }
+  .third_moment .text3 h1 {
+    text-align: center;
+  }
+  .third_moment .text3 p {
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    /* or 167% */
+    color: #939CAA;
+  }
+  .third_moment .text3 button {
+    width: 180px;
+    height: 53px;
+    background-color: #FCB72B;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+    position: relative;
+    top: 30px;
+    left: 50px;
+  }
+  .third_moment .text3 button:hover {
+    background-color: white;
+    color: #FCB72B;
+    border: 3px solid #FCB72B;
+  }
+  .third_moment .moment3 {
+    position: relative;
+    left: -80px;
+    bottom: 180px;
+    transition: 1s;
+    animation-name: third;
+    animation-fill-mode: forwards;
+    animation-timeline: 3s;
+    animation-duration: 2s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+  }
+  .third_moment .moment3 img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  .chiziq5 {
+    position: absolute;
+    margin-left: 440px;
+    margin-top: -60px;
+  }
+  @keyframes third {
+    from {
+      left: 400px;
+      position: relative;
+    }
+    to {
+      right: 400px;
+    }
+  }
+  footer {
+    width: 768px;
+    height: 396px;
+    background-color: #495567;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    top: 200px;
+  }
+  footer .markets {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    margin-right: 950px;
+    position: relative;
+    top: 100px;
+  }
+  footer .markets .google {
+    width: 159px;
+    height: 56px;
+    background: #E5ECF4;
+    border-radius: 4px;
+  }
+  footer .markets .appstore {
+    width: 159px;
+    height: 56px;
+    background: #E5ECF4;
+    border-radius: 4px;
+  }
+  footer .width2 {
+    height: 100%;
+    width: 1300px;
+    margin: 0 auto;
+  }
+  footer .width2 .oval {
+    width: 1153px;
+    height: 347px;
+    position: relative;
+    top: -100px;
+    left: -10px;
+  }
+  footer .width2 img {
+    position: relative;
+    top: 53px;
+    left: 217px;
+    width: 1153px;
+  }
+  footer .width2 h1 {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    letter-spacing: -2.14286px;
+    color: #FFFFFF;
+    position: relative;
+    top: 135px;
+    margin-right: 700px;
+    text-align: center;
+  }
+  footer .ending1 {
+    width: 768px;
+    height: 96px;
+    background-color: #333A44;
+  }
+  footer .ending1 .ending2 {
+    background: #333A44;
+    width: 750px;
+    height: 96px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer .ending1 .ending2 .nav_ul {
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-right: 300px;
+  }
+  footer .ending1 .ending2 .nav_ul .nav_li {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  footer .ending1 .ending2 .nav_ul .nav_li a {
+    color: #939CAA;
+    text-decoration: none;
+  }
+  footer .ending1 .ending2 .nav_ul .nav_li a:hover {
+    color: #FCB72B;
+  }
+  .icons {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    position: relative;
+    right: 30px;
+  }
+  .icons:hover {
+    color: #FCB72B;
+  }
+}
+@media only screen and (max-width: 375px) {
+  body {
+    overflow-x: hidden;
+  }
+  header {
+    position: relative;
+    max-width: 375px;
+    height: 64px;
+    left: 0px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  header img {
+    position: relative;
+    right: 510px;
+    width: 75.5px;
+    height: 20px;
+    margin: 10px auto;
+  }
+  header .menu_section {
+    position: absolute;
+    width: 1106px;
+    height: 53px;
+    left: 149px;
+    top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .menu_section svg {
+    display: block;
+    margin-top: 10px;
+    z-index: 2;
+    position: relative;
+    right: 1200px;
+    color: #FCB72B;
+  }
+  header .menu_section button {
+    width: 180px;
+    height: 53px;
+    background-color: #FCB72B;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+    position: relative;
+    right: 520px;
+    display: none;
+  }
+  header .menu_section button:hover {
+    background-color: white;
+    color: #FCB72B;
+    border: 3px solid #FCB72B;
+  }
+  header .menu_section .nav_ul {
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-right: 600px;
+    display: none;
+  }
+  header .menu_section .nav_ul .nav_li {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  header .menu_section .nav_ul .nav_li a {
+    color: #939CAA;
+    text-decoration: none;
+  }
+  header .menu_section .nav_ul .nav_li a:hover {
+    color: #FCB72B;
+  }
+  .menu {
+    width: 1500px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .menu .img {
+    display: flex;
+    justify-content: center;
+    width: 375px;
+    height: 650px;
+  }
+  .menu img {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+  }
+  .menu .Sarlavha {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+    text-align: center;
+    letter-spacing: -1.78571px;
+    color: #FFFFFF;
+    left: 10px;
+    text-align: center;
+    top: 100px;
+  }
+  .menu .text1 {
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    text-align: center;
+    color: #FFFFFF;
+    left: 0px;
+    bottom: 454px;
+    z-index: 1;
+  }
+  .menu .dash1 {
+    position: relative;
+    bottom: 264px;
+    right: 619px;
+    display: none;
+  }
+  .menu .dash2 {
+    position: relative;
+    bottom: 178px;
+    left: -810px;
+  }
+  .menu button {
+    width: 180px;
+    height: 53px;
+    background-color: #FCB72B;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 350px;
+    left: 95px;
+  }
+  .menu button:hover {
+    background-color: white;
+    color: #FCB72B;
+    border: 3px solid #FCB72B;
+  }
+  .cards {
+    width: 1275px;
+    height: 291px;
+    margin: 0 auto;
+  }
+  .cards h2 {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height, or 117% */
+    letter-spacing: -1.07143px;
+    color: #495567;
+  }
+  .cards p {
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    color: #939CAA;
+  }
+  .cards .long_chiziq {
+    height: 0px;
+    width: 0px;
+    background-color: white;
+    left: -30px;
+  }
+  .cards .long_chiziq .first {
+    position: relative;
+    bottom: 10px;
+    left: 175px;
+    width: 56px;
+    height: 56px;
+  }
+  .cards .long_chiziq .second {
+    position: relative;
+    bottom: -180px;
+    left: 175px;
+    width: 56px;
+    height: 56px;
+  }
+  .cards .long_chiziq .third {
+    position: relative;
+    bottom: -380px;
+    left: 175px;
+    width: 56px;
+    height: 56px;
+  }
+  .cards .card1 {
+    position: relative;
+    bottom: 250px;
+    left: -450px;
+    text-align: center;
+  }
+  .cards .card2 {
+    position: relative;
+    bottom: 0px;
+    right: 650px;
+    text-align: center;
+  }
+  .cards .card3 {
+    position: relative;
+    bottom: -300px;
+    right: 860px;
+    text-align: center;
+  }
+  .first_moment {
+    height: 449.94px;
+    width: 1106;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .first_moment h1 {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    letter-spacing: -2.14286px;
+    color: #495567;
+  }
+  .first_moment .text2 {
+    position: relative;
+    right: 0px;
+    top: 800px;
+  }
+  .first_moment .text2 h1 {
+    text-align: center;
+  }
+  .first_moment .text2 p {
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    /* or 167% */
+    color: #939CAA;
+  }
+  .first_moment .text2 button {
+    width: 180px;
+    height: 53px;
+    background-color: #FCB72B;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+    position: relative;
+    top: 30px;
+    left: 95px;
+  }
+  .first_moment .text2 button:hover {
+    background-color: white;
+    color: #FCB72B;
+    border: 3px solid #FCB72B;
+  }
+  .first_moment .moment1 {
+    position: relative;
+    left: 0px;
+    transition: 1s;
+    animation-name: First;
+    animation-fill-mode: forwards;
+    animation-timeline: 3s;
+    animation-duration: 2s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+  }
+  .first_moment .moment1 img {
+    width: 311px;
+    height: 311px;
+  }
+  .chiziq3 {
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 250px;
+  }
+  @keyframes First {
+    from {
+      left: 400px;
+      position: relative;
+    }
+    to {
+      right: 400px;
+    }
+  }
+  .second_moment {
+    height: 449.94px;
+    width: 1106;
+    margin: 200px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .second_moment h1 {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    text-align: center;
+    letter-spacing: -2.14286px;
+    color: #495567;
+  }
+  .second_moment .text3 {
+    position: relative;
+    right: 150px;
+    margin-top: 1920px;
+  }
+  .second_moment .text3 p {
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    text-align: center;
+    color: #939CAA;
+  }
+  .second_moment .text3 button {
+    width: 180px;
+    height: 53px;
+    background-color: #FCB72B;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+    position: relative;
+    top: 30px;
+    left: 0px;
+    margin: 0 auto;
+  }
+  .second_moment .text3 button:hover {
+    background-color: white;
+    color: #FCB72B;
+    border: 3px solid #FCB72B;
+  }
+  .second_moment .moment2 {
+    position: relative;
+    left: 100px;
+    top: 500px;
+    animation-name: Second;
+    animation-duration: 2s;
+  }
+  .second_moment .moment2 img {
+    width: 311px;
+    height: 311px;
+  }
+  .chiziq4 {
+    position: absolute;
+    margin-left: -870px;
+    margin-top: -100px;
+  }
+  @keyframes Second {
+    from {
+      position: relative;
+      left: -250px;
+      float: left;
+    }
+    to {
+      left: 100px;
+    }
+  }
+  .third_moment {
+    height: 449.94px;
+    width: 1106;
+    margin: 200px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1200px;
+    margin-right: 20px;
+  }
+  .third_moment h1 {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    letter-spacing: -2.14286px;
+    color: #495567;
+  }
+  .third_moment .text3 {
+    position: relative;
+    left: 165px;
+    top: 300px;
+    margin: 500px auto;
+  }
+  .third_moment .text3 h1 {
+    text-align: center;
+  }
+  .third_moment .text3 p {
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    /* or 167% */
+    color: #939CAA;
+  }
+  .third_moment .text3 button {
+    width: 180px;
+    height: 53px;
+    background-color: #FCB72B;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+    position: relative;
+    top: 30px;
+    left: 30px;
+  }
+  .third_moment .text3 button:hover {
+    background-color: white;
+    color: #FCB72B;
+    border: 3px solid #FCB72B;
+  }
+  .third_moment .moment3 {
+    position: relative;
+    left: -100px;
+    bottom: 180px;
+    transition: 1s;
+    animation-name: third;
+    animation-fill-mode: forwards;
+    animation-timeline: 3s;
+    animation-duration: 2s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+  }
+  .third_moment .moment3 img {
+    width: 311px;
+    height: 311px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  .chiziq5 {
+    position: absolute;
+    margin-left: 440px;
+    margin-top: -60px;
+  }
+  @keyframes third {
+    from {
+      left: 400px;
+      position: relative;
+    }
+    to {
+      right: 400px;
+    }
+  }
+  footer {
+    width: 375px;
+    height: 758px;
+    background-color: #495567;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    top: 200px;
+  }
+  footer .markets {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    margin-right: 1160px;
+    position: relative;
+    top: 200px;
+  }
+  footer .markets .google {
+    width: 159px;
+    height: 56px;
+    background: #E5ECF4;
+    border-radius: 4px;
+  }
+  footer .markets .appstore {
+    width: 159px;
+    height: 56px;
+    background: #E5ECF4;
+    border-radius: 4px;
+  }
+  footer .width2 {
+    height: 100%;
+    width: 1300px;
+    margin: 0 auto;
+  }
+  footer .width2 .oval {
+    width: 1153px;
+    height: 347px;
+    position: relative;
+    top: 0px;
+    left: -700px;
+  }
+  footer .width2 img {
+    position: relative;
+    top: 53px;
+    left: 217px;
+    width: 1153px;
+  }
+  footer .width2 h1 {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    /* or 100% */
+    text-align: center;
+    letter-spacing: -1.42857px;
+    color: #FFFFFF;
+    top: 135px;
+    left: -100px;
+    text-align: center;
+  }
+  footer .ending1 {
+    width: 375px;
+    height: 438px;
+    background-color: #333A44;
+  }
+  footer .ending1 .ending2 {
+    background: #333A44;
+    width: 375px;
+    height: 438px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  footer .ending1 .ending2 img {
+    margin-top: 100px;
+  }
+  footer .ending1 .ending2 .nav_ul {
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+    flex-direction: column;
+    list-style-type: none;
+    margin-left: 300px;
+    gap: 20px;
+    text-align: center;
+  }
+  footer .ending1 .ending2 .nav_ul .nav_li {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  footer .ending1 .ending2 .nav_ul .nav_li a {
+    color: #939CAA;
+    text-decoration: none;
+  }
+  footer .ending1 .ending2 .nav_ul .nav_li a:hover {
+    color: #FCB72B;
+  }
+  .icons {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    position: relative;
+    right: 0px;
+  }
+  .icons:hover {
+    color: #FCB72B;
+  }
+}/*# sourceMappingURL=style.css.map */

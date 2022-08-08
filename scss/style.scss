@@ -1,0 +1,2385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    overflow-x: hidden;
+}
+
+
+// main fonts using
+
+// font-family: 'Space Mono', monospace;
+
+header{
+   position: relative; 
+width: 1440px;
+height: 96px;
+
+
+
+margin: 0 auto;
+display: flex;
+justify-content: center;
+
+
+.menu_section{
+    position: absolute;
+width: 1106px;
+height: 53px;
+left: 169px;
+top: 22px;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+svg{
+    display: none;
+}
+
+
+
+
+button{
+    width: 180px;
+    height: 53px;
+    background-color: #FCB72B;
+    font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 25px;
+/* identical to box height, or 167% */
+border: none;
+text-align: center;
+cursor: pointer;
+color: #FFFFFF;
+
+
+}
+button:hover{
+    background-color: white;
+    color:#FCB72B ;
+    border: 3px solid #FCB72B ;
+    }
+
+
+
+
+
+
+.nav_ul{
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-right: 480px;
+
+    .nav_li{
+        font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 25px;
+
+
+
+a{
+    color: #939CAA;
+    text-decoration: none;
+
+    
+
+}
+a:hover{
+    color: #FCB72B;
+
+   }
+    }
+}
+}
+}
+
+.menu{
+    width: 1500px;
+    margin: 0 auto;
+    
+    position: relative;
+    .img{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        
+    
+    }
+    img{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+
+    .Sarlavha{
+        position: absolute;
+        font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 56px;
+/* or 100% */
+
+letter-spacing: -2.5px;
+left: 153px;
+color: white;
+top: 150px;
+display: flex;
+justify-content: center;
+margin:  0 auto;
+
+    }
+    .text1{
+        position: absolute;
+        font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+
+color: white;
+left: 270px;
+bottom: 424px;
+z-index: 1;
+
+    }
+    .dash1{
+        position: relative;
+        bottom: 264px;
+        right: 619px;
+    }
+    .dash2{
+        position: relative;
+        bottom: 278px;
+        left: 150px;
+    }
+    button{
+        width: 180px;
+        height: 53px;
+        background-color: #FCB72B;
+        font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 280px;
+    left: 270px;
+    
+    }
+    button:hover{
+        background-color: white;
+        color:#FCB72B ;
+        border: 3px solid #FCB72B ;
+        }
+}
+.cards{
+    width: 1275px;
+    height: 291px;
+    margin: 0 auto;
+    
+
+    h2{
+        font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height, or 117% */
+
+letter-spacing: -1.07143px;
+
+color: #495567;
+
+    }
+    p{
+        font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+
+
+color: #939CAA;
+
+    }
+   
+    .long_chiziq{
+        width: 974px;
+height: 1px;
+position: relative;
+right: 80px;
+
+
+border: 15px solid #E5ECF4;
+
+
+
+.first{
+position: relative;
+bottom: 50px;
+left: 80px;
+}
+.second{
+    position: relative;
+    bottom: 50px;
+    left: 380px;
+    }
+    .third{
+        position: relative;
+        bottom: 50px;
+        left: 680px;
+        }
+    }
+    .card1{
+        margin-top: 87px;
+    }
+     .card2{
+        margin-left: 400px;
+        margin-top: -170px;
+    }
+    .card3{
+        margin-left: 810px;
+        margin-top: -175px
+    }
+}
+
+
+.first_moment{
+    height: 449.94px;
+    width: 1106;
+    margin: 200px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+    h1{
+        font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+/* or 100% */
+text-align: center;
+letter-spacing: -2.14286px;
+
+color: #495567;
+
+
+
+    }
+    .text2{
+  position: relative;
+  right: 100px;
+    
+   
+    p{
+        font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+text-align: center;
+
+
+color: #939CAA;
+    }
+    button{
+        width: 180px;
+        height: 53px;
+        background-color: #FCB72B;
+        font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+    position: relative;
+    top: 30px;
+    left: 120px;
+    
+    
+    }
+    button:hover{
+        background-color: white;
+        color:#FCB72B ;
+        border: 3px solid #FCB72B ;
+        }
+    }    
+    .moment1{
+        position: relative;
+        left: 120px;
+        transition: 1s;
+        animation-name: First;
+        animation-fill-mode: forwards;
+        animation-timeline: 3s;
+        animation-duration: 2s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+}   
+}
+.chiziq3{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 160px;
+    
+}
+
+
+@keyframes First{
+    from{
+        left: 400px;
+        position: relative;
+        
+    }
+    to{
+right: 400px;
+    }
+
+}
+
+
+
+
+
+
+.second_moment{
+    height: 449.94px;
+    width: 1106;
+    margin: 200px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    h1{
+        font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+/* or 100% */
+text-align: center;
+letter-spacing: -2.14286px;
+
+color: #495567;
+
+
+
+    }
+    .text3{
+  position: relative;
+  right: 0px;
+  margin-right: 20px;
+
+    
+   
+    p{
+        font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+text-align: center;
+
+color: #939CAA;
+    }
+    button{
+        width: 180px;
+        height: 53px;
+        background-color: #FCB72B;
+        font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    
+    
+    }
+    button:hover{
+        background-color: white;
+        color:#FCB72B ;
+        border: 3px solid #FCB72B ;
+        }
+    }    
+    .moment2{
+        position: relative;
+        left: -180px;
+        float: left;
+        animation-name: Second;
+        animation-duration: 2s;
+
+    }   
+}
+.chiziq4{
+    position: absolute;
+    margin-left: -870px;
+    margin-top: -100px;
+    
+}
+
+@keyframes Second{
+    from{
+ position: relative;
+        left: -550px;
+        float: left;
+    }
+    to{
+left: -180px;
+    }
+}
+
+
+
+
+
+.third_moment{
+    height: 449.94px;
+    width: 1106;
+    margin: 200px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+/* or 100% */
+text-align: center;
+letter-spacing: -2.14286px;
+
+color: #495567;
+
+
+
+    }
+    .text3{
+  position: relative;
+  right: 100px;
+    
+   
+    p{
+        font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+text-align: center;
+
+color: #939CAA;
+    }
+    button{
+        width: 180px;
+        height: 53px;
+        background-color: #FCB72B;
+        font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    
+    
+    }
+    button:hover{
+        background-color: white;
+        color:#FCB72B ;
+        border: 3px solid #FCB72B ;
+        }
+    }    
+    .moment3{
+        position: relative;
+        left: 100px;
+        transition: 1s;
+        animation-name: third;
+        animation-fill-mode: forwards;
+        animation-timeline: 3s;
+        animation-duration: 2s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+
+        img{
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+}
+    }   
+}
+.chiziq5{
+    position: absolute;
+    margin-left: 740px;
+    margin-top: -50px;
+    
+}
+
+@keyframes third{
+    from{
+        left: 400px;
+        position: relative;
+        
+    }
+    to{
+right: 400px;
+    }
+
+}
+
+footer{
+    width: 1440px;
+height: 396px;
+background-color: #495567;
+margin: 0 auto;
+
+.markets{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    margin-right: 400px;
+    position: relative;
+    top: 100px;
+
+
+
+    .google{
+        width: 159px;
+height: 56px;
+
+background: #E5ECF4;
+border-radius: 4px;
+    }
+
+    .appstore{
+        width: 159px;
+height: 56px;
+
+background: #E5ECF4;
+border-radius: 4px;
+    }
+}
+
+.width2{
+    height: 100%;
+    width: 1300px;
+    
+    margin:  0 auto;
+
+    img{
+        
+        position: relative;
+        top: 53px;
+        left: 217px;
+        width: 1153px;
+    }
+
+    h1{
+        font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+/* or 100% */
+
+letter-spacing: -2.14286px;
+
+color: #FFFFFF;
+position: relative;
+top: 135px;
+left: 102px;
+    }
+
+}
+
+.ending1{
+
+    width: 1440px;
+    background-color: #333A44;
+    
+.ending2{
+    
+
+background: #333A44;
+   
+width: 1106px;
+height: 53px;
+
+margin:  0 auto;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav_ul{
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-right: 480px;
+
+    .nav_li{
+        font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 25px;
+
+
+
+a{
+    color: #939CAA;
+    text-decoration: none;
+
+    
+
+}
+a:hover{
+    color: #FCB72B;
+
+   }
+    }
+}
+}
+}
+}
+.icons{
+display: flex;
+gap: 10px;
+cursor: pointer;
+}
+.icons:hover{
+    color: #FCB72B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:768px){
+
+
+    header{
+        position: relative; 
+     width: 768px;
+     height: 96px;
+     left: 0px;
+     
+     
+     margin: 0 auto;
+     display: flex;
+     justify-content: center;
+     
+     img{
+        position: relative;
+        right: 100px;
+     }
+     .menu_section{
+         position: absolute;
+     width: 1106px;
+     height: 53px;
+     left: 149px;
+     top: 22px;
+     
+     
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     
+     
+     
+     
+     
+     
+     button{
+         width: 180px;
+         height: 53px;
+         background-color: #FCB72B;
+         font-family: 'Space Mono';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 15px;
+     line-height: 25px;
+     /* identical to box height, or 167% */
+     border: none;
+     text-align: center;
+     cursor: pointer;
+     color: #FFFFFF;
+     position: relative;
+     right: 520px;
+     
+     }
+     button:hover{
+         background-color: white;
+         color:#FCB72B ;
+         border: 3px solid #FCB72B ;
+         }
+     
+     
+     
+     
+     
+     
+     .nav_ul{
+         display: flex;
+         width: 25%;
+         justify-content: space-around;
+         list-style-type: none;
+         margin-right: 600px;
+
+     
+         .nav_li{
+             font-family: 'Space Mono';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 15px;
+     line-height: 25px;
+     
+     
+     
+     a{
+         color: #939CAA;
+         text-decoration: none;
+     
+         
+     
+     }
+     a:hover{
+         color: #FCB72B;
+     
+        }
+         }
+     }
+     }
+     }
+
+
+
+
+     .menu{
+        width: 1500px;
+        margin: 0 auto;
+        
+        position: relative;
+        .img{
+            display: flex;
+            justify-content: center;
+            width: 768px;
+            height: 650px;
+        }
+        img{
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            
+            
+        }
+    
+        .Sarlavha{
+            position: absolute;
+            font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    /* or 100% */
+    
+    letter-spacing: -2.5px;
+    left: 153px;
+    color: white;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    margin:  0 auto;
+    text-align: center;
+    
+        }
+        .text1{
+            position: absolute;
+            font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    
+    color: white;
+    text-align: center;
+     left: 200px;
+    bottom: 454px;
+    z-index: 1;
+    
+        }
+        .dash1{
+            position: relative;
+            bottom: 264px;
+            right: 619px;
+            display: none;
+        }
+        .dash2{
+            position: relative;
+            bottom: 178px;
+            left: -650px;
+            
+        }
+        button{
+            width: 180px;
+            height: 53px;
+            background-color: #FCB72B;
+            font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        /* identical to box height, or 167% */
+        border: none;
+        text-align: center;
+        cursor: pointer;
+        color: #FFFFFF;
+        position: relative;
+        bottom: 350px;
+        left: 290px;
+        
+        }
+        button:hover{
+            background-color: white;
+            color:#FCB72B ;
+            border: 3px solid #FCB72B ;
+            }
+    }
+
+
+
+
+
+    .cards{
+        width: 1275px;
+        height: 291px;
+        margin: 0 auto;
+        
+    
+        h2{
+            font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height, or 117% */
+    
+    letter-spacing: -1.07143px;
+    
+    color: #495567;
+    
+        }
+        p{
+            font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    
+    
+    color: #939CAA;
+    
+        }
+       
+        .long_chiziq{
+            width: 5px;
+height: 512px;
+position: relative;
+left: 200px;
+bottom: 204px;
+background-color: #E5ECF4;
+    
+    
+    
+    
+    border: 15px solid  #E5ECF4;
+    
+    
+    
+    .first{
+    
+    position: relative;
+    bottom: 10px;
+    left: -50px;
+    
+    }
+    .second{
+        position: relative;
+        bottom: -80px;
+        left: -50px;
+        }
+        .third{
+            position: relative;
+            bottom: -170px;
+            left: -50px;
+            }
+        }
+        .card1{
+            position: relative;
+            bottom: 790px;
+            left: 300px;
+        }
+         .card2{
+            position: relative;
+            bottom: 600px;
+            right: 100px;
+        }
+        .card3{
+            position: relative;
+            bottom: 400px;
+            right: 510px;
+
+        }
+    }
+
+
+
+
+
+
+    .first_moment{
+        height: 449.94px;
+        width: 1106;
+        margin: 200px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       
+    
+        h1{
+            font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    
+    letter-spacing: -2.14286px;
+    
+    color: #495567;
+    
+    
+    
+        }
+        .text2{
+      position: relative;
+      right: -40px;
+      top: 800px;
+      h1{
+        text-align: center;
+      }
+        
+       
+        p{
+            font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    /* or 167% */
+    
+    
+    color: #939CAA;
+        }
+        button{
+            width: 180px;
+            height: 53px;
+            background-color: #FCB72B;
+            font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        /* identical to box height, or 167% */
+        border: none;
+        text-align: center;
+        cursor: pointer;
+        color: #FFFFFF;
+        position: relative;
+        top: 30px;
+        left: 120px;
+        
+        }
+        button:hover{
+            background-color: white;
+            color:#FCB72B ;
+            border: 3px solid #FCB72B ;
+            }
+        }    
+        .moment1{
+            position: relative;
+            left: 60px;
+            transition: 1s;
+            animation-name: First;
+            animation-fill-mode: forwards;
+            animation-timeline: 3s;
+            animation-duration: 2s;
+            -webkit-transition: 1s;
+            -moz-transition: 1s;
+            -ms-transition: 1s;
+            -o-transition: 1s;
+    }   
+    }
+    .chiziq3{
+        position: absolute;
+        margin-left: 400px;
+        margin-top: 160px;
+        
+    }
+    
+    
+    @keyframes First{
+        from{
+            left: 400px;
+            position: relative;
+            
+        }
+        to{
+    right: 400px;
+        }
+    
+    }
+
+
+
+
+
+
+    .second_moment{
+        height: 449.94px;
+        width: 1106;
+        margin: 200px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1{
+            font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    text-align: center;
+    letter-spacing: -2.14286px;
+    
+    color: #495567;
+    
+    
+    
+        }
+        .text3{
+      position: relative;
+      right: 180px;
+      margin-top: 1800px;
+    
+        
+       
+        p{
+            font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    text-align: center;
+    
+    color: #939CAA;
+        }
+        button{
+            width: 180px;
+            height: 53px;
+            background-color: #FCB72B;
+            font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        /* identical to box height, or 167% */
+        border: none;
+        text-align: center;
+        cursor: pointer;
+        color: #FFFFFF;
+        position: relative;
+        top: 30px;
+        left: 50px;
+        
+        }
+        button:hover{
+            background-color: white;
+            color:#FCB72B ;
+            border: 3px solid #FCB72B ;
+            }
+        }    
+        .moment2{
+            position: relative;
+            left: 185px;
+            top: 400px;
+            animation-name: Second;
+            animation-duration: 2s;
+    
+        }   
+    }
+    .chiziq4{
+        position: absolute;
+        margin-left: -870px;
+        margin-top: -100px;
+        
+    }
+    
+    @keyframes Second{
+        from{
+     position: relative;
+            left: -250px;
+            float: left;
+        }
+        to{
+    left: 185px;
+        }
+    }
+    
+
+
+
+
+
+
+.third_moment{
+    height: 449.94px;
+    width: 1106;
+    margin: 200px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1200px;
+    margin-right: 20px;
+    h1{
+        font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+/* or 100% */
+
+letter-spacing: -2.14286px;
+
+color: #495567;
+
+
+
+    }
+    .text3{
+  position: relative;
+  left: 270px;
+  top: 300px;
+  margin: 500px auto;
+    
+   h1{
+    text-align: center;
+   }
+    p{
+        font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+/* or 167% */
+
+
+color: #939CAA;
+    }
+    button{
+        width: 180px;
+        height: 53px;
+        background-color: #FCB72B;
+        font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    
+    
+    }
+    button:hover{
+        background-color: white;
+        color:#FCB72B ;
+        border: 3px solid #FCB72B ;
+        }
+    }    
+    .moment3{
+        position: relative;
+        left: -80px;
+        bottom: 180px;
+        transition: 1s;
+        animation-name: third;
+        animation-fill-mode: forwards;
+        animation-timeline: 3s;
+        animation-duration: 2s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+
+        img{
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+}
+    }   
+}
+.chiziq5{
+    position: absolute;
+    margin-left: 440px;
+    margin-top: -60px;
+    
+}
+
+@keyframes third{
+    from{
+        left: 400px;
+        position: relative;
+        
+    }
+    to{
+right: 400px;
+    }
+
+}
+
+
+
+
+
+
+
+
+footer{
+    width: 768px;
+height: 396px;
+background-color: #495567;
+margin: 0 auto;
+position: relative;
+display: flex;
+justify-content: center;
+flex-direction: column;
+top: 200px;
+
+
+
+.markets{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    margin-right: 950px;
+    position: relative;
+    top: 100px;
+
+
+
+    .google{
+        width: 159px;
+height: 56px;
+
+background: #E5ECF4;
+border-radius: 4px;
+    }
+
+    .appstore{
+        width: 159px;
+height: 56px;
+
+background: #E5ECF4;
+border-radius: 4px;
+    }
+}
+
+.width2{
+    height: 100%;
+    width: 1300px;
+    
+    margin:  0 auto;
+
+
+    .oval{
+        width: 1153px;
+    height: 347px;
+    position:relative;
+    top: -100px;
+    left: -10px;
+    }
+
+    img{
+        
+        position: relative;
+        top: 53px;
+        left: 217px;
+        width: 1153px;
+    }
+
+    h1{
+        font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+/* or 100% */
+
+letter-spacing: -2.14286px;
+
+color: #FFFFFF;
+position: relative;
+top: 135px;
+margin-right: 700px;
+text-align: center;
+    }
+
+}
+
+.ending1{
+
+    width: 768px;
+height: 96px;
+    background-color: #333A44;
+    
+.ending2{
+    
+
+background: #333A44;
+   
+width: 750px;
+height: 96px;
+
+margin:  0 auto;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav_ul{
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-right: 300px;
+
+    .nav_li{
+        font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 25px;
+
+
+
+a{
+    color: #939CAA;
+    text-decoration: none;
+
+    
+
+}
+a:hover{
+    color: #FCB72B;
+
+   }
+    }
+}
+}
+}
+}
+.icons{
+display: flex;
+gap: 10px;
+cursor: pointer;
+position: relative;
+right: 30px;
+}
+.icons:hover{
+    color: #FCB72B;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:375px){
+
+
+    body{
+        overflow-x: hidden;
+    }
+
+
+    header{
+        position: relative; 
+        max-width: 375px;
+        height: 64px;
+     left: 0px;
+     
+     
+     margin: 0 auto;
+     display: flex;
+     justify-content: center;
+
+
+    
+     
+     img{
+        position: relative;
+        right: 510px;
+        width: 75.5px;
+height: 20px;
+margin:  10px auto;
+     }
+     .menu_section{
+         position: absolute;
+     width: 1106px;
+     height: 53px;
+     left: 149px;
+     top: 10px;
+     
+     
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     
+     
+     svg{
+        display: block;
+        margin-top: 10px;
+        z-index: 2;
+        position: relative;
+        right: 1200px;
+        color: #FCB72B;
+     }
+     
+     
+     
+     button{
+         width: 180px;
+         height: 53px;
+         background-color: #FCB72B;
+         font-family: 'Space Mono';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 15px;
+     line-height: 25px;
+     /* identical to box height, or 167% */
+     border: none;
+     text-align: center;
+     cursor: pointer;
+     color: #FFFFFF;
+     position: relative;
+     right: 520px;
+     display: none;
+     }
+     button:hover{
+         background-color: white;
+         color:#FCB72B ;
+         border: 3px solid #FCB72B ;
+         }
+     
+     
+     
+     
+     
+     
+     .nav_ul{
+         display: flex;
+         width: 25%;
+         justify-content: space-around;
+         list-style-type: none;
+         margin-right: 600px;
+         display: none;
+     
+         .nav_li{
+             font-family: 'Space Mono';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 15px;
+     line-height: 25px;
+     
+     
+     
+     a{
+         color: #939CAA;
+         text-decoration: none;
+     
+         
+     
+     }
+     a:hover{
+         color: #FCB72B;
+     
+        }
+         }
+     }
+     }
+     }
+
+
+
+
+
+
+     .menu{
+        width: 1500px;
+        margin: 0 auto;
+        
+        position: relative;
+        .img{
+            display: flex;
+            justify-content: center;
+            width: 375px;
+            height: 650px;
+        }
+        img{
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            background-position: center;
+            
+        }
+    
+        .Sarlavha{
+            font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 40px;
+/* or 100% */
+
+text-align: center;
+letter-spacing: -1.78571px;
+
+color: #FFFFFF;
+
+    left: 10px;
+   
+    text-align: center;
+    top: 100px;
+        }
+        .text1{
+            font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+
+text-align: center;
+
+color: #FFFFFF;
+     left: 0px;
+    bottom: 454px;
+    z-index: 1;
+    
+        }
+        .dash1{
+            position: relative;
+            bottom: 264px;
+            right: 619px;
+            display: none;
+        }
+        .dash2{
+            position: relative;
+            bottom: 178px;
+            left: -810px;
+            
+        }
+        button{
+            width: 180px;
+            height: 53px;
+            background-color: #FCB72B;
+            font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        /* identical to box height, or 167% */
+        border: none;
+        text-align: center;
+        cursor: pointer;
+        color: #FFFFFF;
+        position: relative;
+        bottom: 350px;
+        left: 95px;
+        
+        }
+        button:hover{
+            background-color: white;
+            color:#FCB72B ;
+            border: 3px solid #FCB72B ;
+            }
+    }
+
+
+
+
+
+
+
+    .cards{
+        width: 1275px;
+        height: 291px;
+        margin: 0 auto;
+        
+    
+        h2{
+            font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height, or 117% */
+    
+    letter-spacing: -1.07143px;
+    
+    color: #495567;
+    
+        }
+        p{
+            font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    
+    
+    color: #939CAA;
+    
+        }
+       
+        .long_chiziq{
+            height: 0px;
+            width: 0px;
+            background-color: white;
+    left: -30px;
+    .first{
+    
+    position: relative;
+    bottom: 10px;
+    left: 175px;
+    width: 56px;
+height: 56px;
+    }
+    .second{
+        position: relative;
+        bottom: -180px;
+        left: 175px;
+        width: 56px;
+height: 56px;
+        }
+        .third{
+            position: relative;
+            bottom: -380px;
+            left: 175px;
+            width: 56px;
+height: 56px;
+            }
+        }
+        .card1{
+            position: relative;
+            bottom: 250px;
+            left: -450px;
+            text-align: center;
+        }
+         .card2{
+            position: relative;
+            bottom: 0px;
+            right: 650px;
+            text-align: center;
+        }
+        .card3{
+            position: relative;
+            bottom: -300px;
+            right: 860px;
+            text-align: center;
+
+        }
+    }
+
+
+
+
+
+
+
+    .first_moment{
+        height: 449.94px;
+        width: 1106;
+        margin: 100px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       
+    
+        h1{
+            font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    
+    letter-spacing: -2.14286px;
+    
+    color: #495567;
+    
+    
+    
+        }
+        .text2{
+      position: relative;
+      right: 0px;
+      top: 800px;
+      h1{
+        text-align: center;
+      }
+        
+       
+        p{
+            font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    /* or 167% */
+    
+    
+    color: #939CAA;
+        }
+        button{
+            width: 180px;
+            height: 53px;
+            background-color: #FCB72B;
+            font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        /* identical to box height, or 167% */
+        border: none;
+        text-align: center;
+        cursor: pointer;
+        color: #FFFFFF;
+        position: relative;
+        top: 30px;
+        left: 95px;
+        
+        }
+        button:hover{
+            background-color: white;
+            color:#FCB72B ;
+            border: 3px solid #FCB72B ;
+            }
+        }    
+        .moment1{
+            position: relative;
+            left: 0px;
+            transition: 1s;
+            animation-name: First;
+            animation-fill-mode: forwards;
+            animation-timeline: 3s;
+            animation-duration: 2s;
+            -webkit-transition: 1s;
+            -moz-transition: 1s;
+            -ms-transition: 1s;
+            -o-transition: 1s;
+
+            img{
+                width: 311px;
+height: 311px;
+            }
+    }   
+    }
+    .chiziq3{
+        position: absolute;
+        margin-left: 400px;
+        margin-top: 250px;
+        
+    }
+    
+    
+    @keyframes First{
+        from{
+            left: 400px;
+            position: relative;
+            
+        }
+        to{
+    right: 400px;
+        }
+    
+    }
+
+
+
+
+
+
+
+
+
+
+    .second_moment{
+        height: 449.94px;
+        width: 1106;
+        margin: 200px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1{
+            font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    text-align: center;
+    letter-spacing: -2.14286px;
+    
+    color: #495567;
+    
+    
+    
+        }
+        .text3{
+      position: relative;
+      right: 150px;
+      margin-top: 1920px;
+    
+        
+       
+        p{
+            font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    text-align: center;
+    
+    color: #939CAA;
+        }
+        button{
+            width: 180px;
+            height: 53px;
+            background-color: #FCB72B;
+            font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        /* identical to box height, or 167% */
+        border: none;
+        text-align: center;
+        cursor: pointer;
+        color: #FFFFFF;
+        position: relative;
+        top: 30px;
+        left: 0px;
+     margin:  0 auto;
+
+        
+        }
+        button:hover{
+            background-color: white;
+            color:#FCB72B ;
+            border: 3px solid #FCB72B ;
+            }
+        }    
+        .moment2{
+            position: relative;
+            left: 100px;
+            top: 500px;
+            animation-name: Second;
+            animation-duration: 2s;
+
+            img{
+                width: 311px;
+height: 311px;
+            }
+    
+        }   
+    }
+    .chiziq4{
+        position: absolute;
+        margin-left: -870px;
+        margin-top: -100px;
+        
+    }
+    
+    @keyframes Second{
+        from{
+     position: relative;
+            left: -250px;
+            float: left;
+        }
+        to{
+    left: 100px;
+        }
+    }
+    
+
+
+
+
+
+
+.third_moment{
+    height: 449.94px;
+    width: 1106;
+    margin: 200px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1200px;
+    margin-right: 20px;
+    h1{
+        font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+/* or 100% */
+
+letter-spacing: -2.14286px;
+
+color: #495567;
+
+
+
+    }
+    .text3{
+  position: relative;
+  left: 165px;
+  top: 300px;
+  margin: 500px auto;
+    
+   h1{
+    text-align: center;
+   }
+    p{
+        font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+/* or 167% */
+
+
+color: #939CAA;
+    }
+    button{
+        width: 180px;
+        height: 53px;
+        background-color: #FCB72B;
+        font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    
+    
+    }
+    button:hover{
+        background-color: white;
+        color:#FCB72B ;
+        border: 3px solid #FCB72B ;
+        }
+    }    
+    .moment3{
+        position: relative;
+        left: -100px;
+        bottom: 180px;
+        transition: 1s;
+        animation-name: third;
+        animation-fill-mode: forwards;
+        animation-timeline: 3s;
+        animation-duration: 2s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+
+        img{
+            
+                width: 311px;
+height: 311px;
+            
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+}
+    }   
+}
+.chiziq5{
+    position: absolute;
+    margin-left: 440px;
+    margin-top: -60px;
+    
+}
+
+@keyframes third{
+    from{
+        left: 400px;
+        position: relative;
+        
+    }
+    to{
+right: 400px;
+    }
+
+}
+
+
+
+
+
+
+
+footer{
+    width: 375px;
+height: 758px;
+background-color: #495567;
+margin: 0 auto;
+position: relative;
+display: flex;
+justify-content: center;
+flex-direction: column;
+top: 200px;
+
+
+
+.markets{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    margin-right: 1160px;
+    position: relative;
+    top: 200px;
+
+
+
+    .google{
+        width: 159px;
+height: 56px;
+
+background: #E5ECF4;
+border-radius: 4px;
+    }
+
+    .appstore{
+        width: 159px;
+height: 56px;
+
+background: #E5ECF4;
+border-radius: 4px;
+    }
+}
+
+.width2{
+    height: 100%;
+    width: 1300px;
+    
+    margin:  0 auto;
+
+
+    .oval{
+        width: 1153px;
+    height: 347px;
+    position:relative;
+    top: 0px;
+    left: -700px;
+    }
+
+    img{
+        
+        position: relative;
+        top: 53px;
+        left: 217px;
+        width: 1153px;
+    }
+
+    h1{
+        font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+/* or 100% */
+
+text-align: center;
+letter-spacing: -1.42857px;
+
+color: #FFFFFF;
+
+top: 135px;
+left: -100px;
+text-align: center;
+    }
+
+}
+
+.ending1{
+
+    width: 375px;
+height: 438px;
+    background-color: #333A44;
+    
+.ending2{
+    
+
+background: #333A44;
+   
+width: 375px;
+height: 438px;
+
+margin:  0 auto;
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
+
+
+
+
+
+
+img{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+.nav_ul{
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+    flex-direction: column;
+    list-style-type: none;
+    margin-left: 300px;
+    gap: 20px;
+    text-align: center;
+
+    .nav_li{
+        font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 25px;
+
+
+
+a{
+    color: #939CAA;
+    text-decoration: none;
+
+    
+
+}
+a:hover{
+    color: #FCB72B;
+
+   }
+    }
+}
+}
+}
+}
+.icons{
+display: flex;
+gap: 10px;
+cursor: pointer;
+position: relative;
+right: 0px;
+}
+.icons:hover{
+    color: #FCB72B;
+}
+
+
+
+
+
+
+
+}
